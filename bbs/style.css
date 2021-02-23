@@ -1,0 +1,150 @@
+.wrap{
+  width: 600px;
+  margin: 0 auto;
+}
+/* body{
+  padding-top: 80px;
+} */
+.head{
+  text-align: center;
+  color: red;
+}
+.add{
+  overflow: hidden;
+}
+.add .content{
+  width: 598px;
+  margin: 0;
+  padding: 0;
+}
+.add .user{
+  float: left;
+}
+.add .btn{
+  float: right;
+}
+.msg{
+  margin: 20px 0;
+  background: #ccc;
+  padding: 5px;
+}
+.msg .info{
+  overflow: hidden;
+}
+.msg .user{
+  float: left;
+  color: blue;
+}
+.msg .time{
+  float: right;
+  display: block;
+  color: #999;
+}
+/* 设置删除按钮样式 */
+.msg .delete{
+  float: right;
+  padding-left: 5px;
+}
+.msg .delete a{
+  text-decoration: none;
+  color: #696969;
+}
+.msg .content{
+  width: 100%;
+  padding: 5px;
+}
+/* 设置图片居中显示 */
+/* .msg .content .piic{
+  text-align: center;
+  display: block;
+  margin-top: 8px;
+} */
+/* 定义图片的大小 */
+/* .msg .content .piic img{
+  width: 60%;
+  height: 150px;
+} */
+/* 设置图片居中显示 */
+.panel-body .piic{
+  text-align: center;
+  display: block;
+  margin-top: 8px;
+}
+/* 定义图片的大小 */
+.panel-body .piic img{
+  width: 30%;
+  height: 200px;
+}
+/* 留言回复样式位置 */
+.emssg{
+  margin-bottom: 40px;
+}
+/* 分页样式位置 */
+.pagel{
+  margin: 0;
+  padding: 0;
+}
+/*清除网站标志边框*/
+.navbar-header .navbar{
+  border: 0;
+}
+/*导航栏样式*/
+.navbar-header .navbar-brand{
+  display: flex;
+}
+.navbar-header .navbar-brand img{
+  /* float: left; */
+  align-self: center;
+}
+/* 注册页面样式 */
+.register .col-center-block{
+  /* margin: 0 auto; */
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* 注册页头样式 */
+.panel .page-header{
+  padding: 0;
+  margin: 0;
+  margin-top: -18px;
+}
+/* 注册页背景样式 */
+.register{
+  background-image: url(img/an.jpg);
+  overflow: auto;
+  height: 900px;
+  padding-top: 240px;
+}
+/* 页面内容统一水平居中 */
+.wpcontent{
+  display: -webkit-flex;
+  -webkit-justify-content:center;
+  -webkit-align-items:center;
+}
+/* 脚注字体居中显示、字体颜色为白色 */
+.footer{
+  text-align: center;
+  color: #ffffff;
+}
+/* 隐藏脚注div，鼠标移动到上面显示 */
+/* .noneblock{
+  display: none;
+} */
+/* 留言板页面header和文章的距离 */
+.jumbotron{
+  margin-top: 80px;
+}
+/* 定义页码超链接的样式 */
+/* .pagination span{
+  margin-right: 20px;
+  background: #ccc;
+  color: #0000cd;
+  padding: 0 10px;
+  text-decoration: none;
+} */
+/* 定义点击页码显示的样式 */
+/* .pagination .hover{
+  color: #ff00ff;
+} */

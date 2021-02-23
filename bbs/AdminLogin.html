@@ -1,0 +1,52 @@
+<!-- 管理员登录入口 -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>管理员登录</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+
+<div id="particles-js">
+		<div class="login">
+      <form class="" action="SuccessfulAdminLogin.php" method="post">
+			<div class="adminlogin-top">
+				管 理 员 登 录
+			</div>
+			<div class="login-center clearfix">
+				<div class="login-center-img"><img src="./img/name.png"/></div>
+				<div class="login-center-input">
+					<input type="text" name="uname" value="" placeholder="请输入账号" onfocus="this.placeholder=''" onblur="this.placeholder='请输入账号'"/>
+					<div class="login-center-input-text">账号</div>
+				</div>
+			</div>
+			<div class="login-center clearfix">
+				<div class="login-center-img"><img src="./img/password.png"/></div>
+				<div class="login-center-input">
+					<input type="password" name="adminpwd" value="" placeholder="请输入密码" onfocus="this.placeholder=''" onblur="this.placeholder='请输入密码'"/>
+					<div class="login-center-input-text">密码</div>
+				</div>
+			</div>
+			<div class="login-button1">
+				<input class="button" type="submit" name="adminloginsubmit" value="登    录">
+			</div>
+		</div>
+		<div class="sk-rotating-plane"></div>
+    </form>
+</div>
+
+<!-- scripts -->
+<script src="./js/particles.min.js"></script>
+<script src="./js/app.js"></script>
+
+<div style="text-align:center;">
+</div>
+</body>
+</html>
